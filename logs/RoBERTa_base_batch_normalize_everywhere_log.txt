@@ -802,3 +802,84 @@ weighted avg       0.56      0.40      0.36      2708
 0.5347790794595428
 File name: week15_RoBERTa_baseline_keras_batch_layer_everywhere.ipynb
 File name: week15_RoBERTa_baseline_keras_batch_layer_everywhere.ipynb
+File name: week15_RoBERTa_baseline_keras_batch_layer_everywhere.ipynb
+======================================
+is_fine_tuning?: False drop_out_rate:  0.3 learning_rate_transfer_learning:  0.001 learning_rate_fine_tuning:  1e-05
+              precision    recall  f1-score   support
+
+         0.0       0.08      0.72      0.14       190
+         1.0       0.17      0.03      0.05       173
+         2.0       0.04      0.02      0.03       135
+         3.0       0.00      0.00      0.00       217
+         4.0       0.00      0.00      0.00      1035
+         5.0       0.09      0.64      0.17        76
+         6.0       0.70      0.73      0.72       195
+         7.0       0.00      0.00      0.00       290
+         8.0       0.00      0.00      0.00       139
+         9.0       0.30      0.16      0.20       258
+
+    accuracy                           0.14      2708
+   macro avg       0.14      0.23      0.13      2708
+weighted avg       0.10      0.14      0.09      2708
+
+0.22948941600107928
+======================================
+is_fine_tuning?: False drop_out_rate:  0.3 learning_rate_transfer_learning:  0.001 learning_rate_fine_tuning:  1e-05
+              precision    recall  f1-score   support
+
+         0.0       0.08      0.72      0.14       190
+         1.0       0.17      0.03      0.05       173
+         2.0       0.04      0.02      0.03       135
+         3.0       0.00      0.00      0.00       217
+         4.0       0.00      0.00      0.00      1035
+         5.0       0.09      0.64      0.17        76
+         6.0       0.70      0.73      0.72       195
+         7.0       0.00      0.00      0.00       290
+         8.0       0.00      0.00      0.00       139
+         9.0       0.30      0.16      0.20       258
+
+    accuracy                           0.14      2708
+   macro avg       0.14      0.23      0.13      2708
+weighted avg       0.10      0.14      0.09      2708
+
+0.22948941600107928
+======================================
+is_fine_tuning?: False drop_out_rate:  0.3 learning_rate_transfer_learning:  0.001 learning_rate_fine_tuning:  1e-05
+              precision    recall  f1-score   support
+
+         0.0       0.08      0.72      0.14       190
+         1.0       0.17      0.03      0.05       173
+         2.0       0.04      0.02      0.03       135
+         3.0       0.00      0.00      0.00       217
+         4.0       0.00      0.00      0.00      1035
+         5.0       0.09      0.64      0.17        76
+         6.0       0.70      0.73      0.72       195
+         7.0       0.00      0.00      0.00       290
+         8.0       0.00      0.00      0.00       139
+         9.0       0.30      0.16      0.20       258
+
+    accuracy                           0.14      2708
+   macro avg       0.14      0.23      0.13      2708
+weighted avg       0.10      0.14      0.09      2708
+
+0.22948941600107928
+======================================
+is_fine_tuning?: True drop_out_rate:  0.3 learning_rate_transfer_learning:  0.001 learning_rate_fine_tuning:  1e-05
+              precision    recall  f1-score   support
+
+         0.0       0.23      0.36      0.28       190
+         1.0       0.15      0.80      0.25       173
+         2.0       0.13      0.14      0.14       135
+         3.0       0.13      0.08      0.10       217
+         4.0       0.84      0.08      0.14      1035
+         5.0       0.22      0.55      0.31        76
+         6.0       0.71      0.89      0.79       195
+         7.0       0.20      0.00      0.01       290
+         8.0       0.08      0.05      0.06       139
+         9.0       0.29      0.63      0.39       258
+
+    accuracy                           0.26      2708
+   macro avg       0.30      0.36      0.25      2708
+weighted avg       0.47      0.26      0.21      2708
+
+0.3581424155308926
