@@ -1,0 +1,110 @@
+Split:  0
+/usr/local/lib/python3.7/dist-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
+  warnings.warn(msg, category=FutureWarning)
+[(0, 4143), (1, 4143), (2, 4143), (3, 4143), (4, 4143), (5, 4143), (6, 4143), (7, 4143), (8, 4143), (9, 4143)]
+              precision    recall  f1-score   support
+
+           0       0.20      0.11      0.14       190
+           1       0.17      0.33      0.22       173
+           2       0.09      0.16      0.12       135
+           3       0.25      0.17      0.20       216
+           4       0.58      0.34      0.43      1036
+           5       0.25      0.20      0.22        76
+           6       0.59      0.79      0.68       195
+           7       0.20      0.14      0.17       290
+           8       0.14      0.18      0.16       139
+           9       0.21      0.47      0.29       258
+
+    accuracy                           0.31      2708
+   macro avg       0.27      0.29      0.26      2708
+weighted avg       0.37      0.31      0.32      2708
+
+0.2882247048904138
+Split:  1
+/usr/local/lib/python3.7/dist-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
+  warnings.warn(msg, category=FutureWarning)
+[(0, 4143), (1, 4143), (2, 4143), (3, 4143), (4, 4143), (5, 4143), (6, 4143), (7, 4143), (8, 4143), (9, 4143)]
+              precision    recall  f1-score   support
+
+           0       0.25      0.08      0.13       191
+           1       0.17      0.39      0.24       173
+           2       0.08      0.11      0.09       134
+           3       0.16      0.12      0.14       216
+           4       0.60      0.32      0.42      1036
+           5       0.28      0.24      0.26        76
+           6       0.58      0.88      0.70       196
+           7       0.18      0.15      0.16       289
+           8       0.10      0.13      0.11       139
+           9       0.25      0.55      0.34       258
+
+    accuracy                           0.31      2708
+   macro avg       0.27      0.30      0.26      2708
+weighted avg       0.37      0.31      0.31      2708
+
+0.2977563709936377
+Split:  2
+/usr/local/lib/python3.7/dist-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
+  warnings.warn(msg, category=FutureWarning)
+[(0, 4143), (1, 4143), (2, 4143), (3, 4143), (4, 4143), (5, 4143), (6, 4143), (7, 4143), (8, 4143), (9, 4143)]
+              precision    recall  f1-score   support
+
+           0       0.19      0.05      0.08       191
+           1       0.18      0.38      0.24       172
+           2       0.09      0.13      0.10       134
+           3       0.20      0.13      0.16       216
+           4       0.60      0.37      0.46      1036
+           5       0.24      0.19      0.21        77
+           6       0.67      0.84      0.74       196
+           7       0.17      0.13      0.15       290
+           8       0.11      0.16      0.13       139
+           9       0.22      0.50      0.31       257
+
+    accuracy                           0.32      2708
+   macro avg       0.27      0.29      0.26      2708
+weighted avg       0.37      0.32      0.33      2708
+
+0.2885083316539593
+Split:  3
+/usr/local/lib/python3.7/dist-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
+  warnings.warn(msg, category=FutureWarning)
+[(0, 4143), (1, 4143), (2, 4143), (3, 4143), (4, 4143), (5, 4143), (6, 4143), (7, 4143), (8, 4143), (9, 4143)]
+              precision    recall  f1-score   support
+
+           0       0.21      0.06      0.09       191
+           1       0.18      0.41      0.25       172
+           2       0.07      0.11      0.09       134
+           3       0.18      0.12      0.15       216
+           4       0.56      0.34      0.42      1036
+           5       0.26      0.19      0.22        77
+           6       0.63      0.88      0.73       196
+           7       0.17      0.11      0.13       290
+           8       0.09      0.11      0.10       139
+           9       0.23      0.53      0.32       257
+
+    accuracy                           0.31      2708
+   macro avg       0.26      0.29      0.25      2708
+weighted avg       0.36      0.31      0.31      2708
+
+0.2871302077055935
+Split:  4
+/usr/local/lib/python3.7/dist-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
+  warnings.warn(msg, category=FutureWarning)
+[(0, 4144), (1, 4144), (2, 4144), (3, 4144), (4, 4144), (5, 4144), (6, 4144), (7, 4144), (8, 4144), (9, 4144)]
+              precision    recall  f1-score   support
+
+           0       0.17      0.07      0.10       190
+           1       0.18      0.33      0.23       173
+           2       0.13      0.16      0.14       135
+           3       0.21      0.14      0.17       217
+           4       0.59      0.38      0.46      1035
+           5       0.38      0.33      0.35        76
+           6       0.65      0.85      0.74       195
+           7       0.19      0.17      0.18       290
+           8       0.14      0.19      0.16       139
+           9       0.24      0.53      0.33       258
+
+    accuracy                           0.34      2708
+   macro avg       0.29      0.31      0.29      2708
+weighted avg       0.38      0.34      0.34      2708
+
+0.3146080778345702
