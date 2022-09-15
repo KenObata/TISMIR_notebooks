@@ -1,0 +1,80 @@
+﻿TF-IDF from music4all predicting kaggle dataset
+—-----------------------------------------------------
+precision    recall  f1-score   support
+
+
+           0       0.01      0.06      0.02       533
+           1       0.05      0.23      0.09      1732
+           2       0.01      0.05      0.01       640
+           3       0.37      0.09      0.15     17481
+           4       0.50      0.08      0.13     21711
+           5       0.00      0.00      0.00         0
+           6       0.00      0.00      0.00         0
+           7       0.00      0.00      0.00         0
+           8       0.00      0.00      0.00         0
+           9       0.00      0.00      0.00         0
+
+
+    accuracy                           0.09     42097
+   macro avg       0.09      0.05      0.04     42097
+weighted avg       0.42      0.09      0.13     42097
+
+
+0.10097342501345993
+
+
+Glove SVM from music4all predicting kaggle dataset
+—-----------------------------------------------------
+=========split:  4 =================
+Created glove_wv.
+Before build_vocab(X), check if Word2Vec(sentences=X) builds a vocab :  487373
+original training_examples_count: 168386
+Before merge, vocab:  487373
+Updated build_vocab by Glove.
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:96: DeprecationWarning: Call to deprecated `iter` (Attribute will be removed in 4.0.0, use self.epochs instead).
+WARNING:gensim.models.base_any2vec:Effective 'alpha' higher than previous training cycles
+intersect completed.
+After merge, vocab:  487373
+              precision    recall  f1-score   support
+
+
+           0       0.06      0.03      0.04       533
+           1       0.11      0.00      0.00      1732
+           2       0.00      0.00      0.00       639
+           3       0.47      0.02      0.04     17481
+           4       1.00      0.00      0.00     21711
+           5       0.00      0.00      0.00         0
+           6       0.00      0.00      0.00         0
+           7       0.00      0.00      0.00         0
+           8       0.00      0.00      0.00         0
+
+
+    accuracy                           0.01     42096
+   macro avg       0.18      0.01      0.01     42096
+weighted avg       0.72      0.01      0.02     42096
+
+
+0.011426489782730372
+
+
+
+
+RoBERTa from music4all predicting kaggle dataset
+—-----------------------------------------------------
+             precision    recall  f1-score   support
+
+
+         0.0       0.00      0.00      0.00       533
+         1.0       0.00      0.00      0.00      1732
+         2.0       0.05      0.00      0.00       640
+         3.0       0.00      0.00      0.00     17481
+         4.0       0.52      1.00      0.68     21711
+         7.0       0.00      0.00      0.00         0
+
+
+    accuracy                           0.51     42097
+   macro avg       0.09      0.17      0.11     42097
+weighted avg       0.27      0.51      0.35     42097
+
+
+0.19992559935055962
